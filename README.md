@@ -9,6 +9,9 @@ This Flutter widget implements a concept design for showcasing coffee products i
 ![ScreenRecording2024-05-08at9 09 37am-ezgif com-video-to-gif-converter (1)](https://github.com/yinkyAde/coffee_concept/assets/50271975/98b85425-25c1-4d15-b22c-431b9fa91e0e)
 
 
+![ScreenRecording2024-05-08at12 28 42pm-ezgif com-video-to-gif-converter](https://github.com/yinkyAde/coffee_concept/assets/50271975/99364abf-64bd-4f06-b37f-3c828790f259)
+
+
 
 ## Overview
 
