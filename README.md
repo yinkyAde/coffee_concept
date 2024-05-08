@@ -21,12 +21,6 @@ The **CoffeeConceptList** widget displays a list of coffee products along with t
 - **Smooth Animations**: Animations are used to transition between coffee products and to fade in/out text elements.
 - **Responsive Design**: The widget adapts to different screen sizes and orientations.
 
-## Dependencies
-
-- **flutter/cupertino.dart**: Flutter Cupertino widgets for iOS-style design.
-- **flutter/material.dart**: Flutter Material widgets for UI components.
-- **nescafe_concept/coffee.dart**: Custom data structure for representing coffee products.
-
 ## Credits
 
 This widget is inspired by coffee-themed UI design on Dribbble - https://dribbble.com/shots/14166097-Coffee-App
