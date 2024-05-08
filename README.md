@@ -20,6 +20,7 @@ The **CoffeeConceptList** widget displays a list of coffee products along with t
 - **Dynamic Text Display**: The widget dynamically updates the displayed text as the user scrolls through the coffee products.
 - **Smooth Animations**: Animations are used to transition between coffee products and to fade in/out text elements.
 - **Responsive Design**: The widget adapts to different screen sizes and orientations.
+- **Background Color**: Background changes based on the coffee selected 
 
 ## Credits
 
