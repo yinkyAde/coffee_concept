@@ -3,6 +3,13 @@
 
 This Flutter widget implements a concept design for showcasing coffee products in a visually appealing and interactive manner.
 
+
+##
+
+![ScreenRecording2024-05-08at9 09 37am-ezgif com-video-to-gif-converter (1)](https://github.com/yinkyAde/coffee_concept/assets/50271975/98b85425-25c1-4d15-b22c-431b9fa91e0e)
+
+
+
 ## Overview
 
 The **CoffeeConceptList** widget displays a list of coffee products along with their names and prices. It includes animations and transitions to create an engaging user experience.
@@ -22,5 +29,5 @@ The **CoffeeConceptList** widget displays a list of coffee products along with t
 
 ## Credits
 
-This widget is inspired by coffee-themed UI design on Dribbble - https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbkt0b21LcWJMMTJXTTM1Y0VmUkRRM3NSQ1FjZ3xBQ3Jtc0ttN1Voek5yQ2lrMy1lb3E2QVFTdFVfMGFRNHl2SS1neGg0OG1aTDJ5ellrdVp1UGFhSjJGVE1NRUgzdEZOdk1QN3Z4SzZ3d3RXNFFaZ0dsQkxqWkNKblktMEU2UFFUOUs3czV4TzNvakNSSExlczJSQQ&q=https%3A%2F%2Fdribbble.com%2Fshots%2F14166097-Coffee-App&v=bYqeGigTsBw
+This widget is inspired by coffee-themed UI design on Dribbble - https://dribbble.com/shots/14166097-Coffee-App
 and Diegoveloper.
