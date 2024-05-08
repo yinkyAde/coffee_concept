@@ -1,5 +1,8 @@
 import 'dart:math';
 
+import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
+
 class Coffee {
   Coffee({required this.name, required this.image, required this.price});
 
@@ -45,4 +48,68 @@ final _names = [
   'Black Tea Latte',
   'Classic Irish Coffee',
   'Toffee Nut Crunch Latte'
+];
+
+final coffeeGradients = [
+  LinearGradient(
+    begin: Alignment.topLeft,
+    end: Alignment.bottomRight,
+    colors: [Colors.white54, Colors.brown.shade800],
+  ),
+  LinearGradient(
+    begin: Alignment.topLeft,
+    end: Alignment.bottomRight,
+    colors: [const Color(0XffBE7D3C).withOpacity(0.5), const Color(0xffA97E48)],
+  ),
+  LinearGradient(
+    begin: Alignment.topLeft,
+    end: Alignment.bottomRight,
+    colors: [const Color(0Xff8B221C).withOpacity(0.5), const Color(0xffA97E48)],
+  ),
+  LinearGradient(
+    begin: Alignment.topLeft,
+    end: Alignment.bottomRight,
+    colors: [const Color(0XffEFDEC0).withOpacity(0.5), const Color(0xff7C4B2C)],
+  ),
+  LinearGradient(
+    begin: Alignment.topLeft,
+    end: Alignment.bottomRight,
+    colors: [const Color(0XffEADBBC).withOpacity(0.5), const Color(0xff67311D)],
+  ),
+  LinearGradient(
+    begin: Alignment.topLeft,
+    end: Alignment.bottomRight,
+    colors: [const Color(0XffEADBBC).withOpacity(0.5), const Color(0xff67311D)],
+  ),
+  LinearGradient(
+    begin: Alignment.topLeft,
+    end: Alignment.bottomRight,
+    colors: [const Color(0XffEFDEC0).withOpacity(0.3), const Color(0xff7C4B2C)],
+  ),
+  LinearGradient(
+    begin: Alignment.topLeft,
+    end: Alignment.bottomRight,
+    colors: [const Color(0XffEFDEC0).withOpacity(0.3), const Color(0xff3A0804)],
+  ),
+  LinearGradient(
+    begin: Alignment.topLeft,
+    end: Alignment.bottomRight,
+    colors: [const Color(0XffDFD5CC).withOpacity(0.3), const Color(0xffA3714B)],
+  ),
+  LinearGradient(
+    begin: Alignment.topLeft,
+    end: Alignment.bottomRight,
+    colors: [const Color(0Xff8F5134).withOpacity(0.3), const Color(0xff6D3C23)],
+  ),
+  LinearGradient(
+    begin: Alignment.topLeft,
+    end: Alignment.bottomRight,
+    colors: [const Color(0XffE3E8E9).withOpacity(0.3), const Color(0xffD2A974)],
+  ),
+  const LinearGradient(
+    begin: Alignment.topLeft,
+    end: Alignment.bottomRight,
+    colors: [Colors.white, Colors.white],
+  ),
+  // Add more gradients for each coffee item as needed
 ];

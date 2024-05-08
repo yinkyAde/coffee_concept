@@ -53,12 +53,18 @@ class _CoffeeConceptListState extends State<CoffeeConceptList> {
   Widget build(BuildContext context) {
     final size = MediaQuery.of(context).size;
     return Scaffold(
-      appBar: AppBar(
-        backgroundColor: Colors.transparent,
-        elevation: 0,
-      ),
+      // appBar: AppBar(
+      //   backgroundColor: Colors.transparent,
+      //   elevation: 0,
+      // ),
       body: Stack(
         children: [
+          AnimatedContainer(
+            duration: _duration,
+            decoration: BoxDecoration(
+              gradient: coffeeGradients[_currentPage.toInt()],
+            ),
+          ),
           Positioned(
               left: 20.0,
               right: 20.0,
@@ -119,7 +125,7 @@ class _CoffeeConceptListState extends State<CoffeeConceptList> {
               left: 0.0,
               top: 0.0,
               right: 0.0,
-              height: 120.0,
+              height: 220.0,
               child: Column(
                 children: [
                   Expanded(
@@ -132,7 +138,7 @@ class _CoffeeConceptListState extends State<CoffeeConceptList> {
                             return Opacity(
                               opacity: opacity,
                               child: Padding(
-                                padding: EdgeInsets.symmetric(horizontal: size.width * 0.2),
+                                padding: EdgeInsets.symmetric(horizontal: size.width * 0.2, vertical: 64.0),
                                 child: Text(coffees[index].name,
                                 maxLines: 2,
                                 textAlign: TextAlign.center,
@@ -143,7 +149,7 @@ class _CoffeeConceptListState extends State<CoffeeConceptList> {
                               ),
                             );
                           })),
-                  const SizedBox(height: 4.0,),
+                  // const SizedBox(height: 4.0,),
                   AnimatedSwitcher(
                     duration: _duration,
                     key: Key(coffees[_currentPage.toInt()].name),
